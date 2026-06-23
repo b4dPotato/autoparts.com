@@ -2,8 +2,6 @@
 node_modules/
 out/
 qa/
-.firebase/
-
 .env*.local
 *.log
 *.tsbuildinfo
