@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Auto parts delivered across Ukraine | AutoParts Ukraine",
+    "description": "Auto parts matched by VIN, vehicle model, or part photo. Original, OEM, or quality analog parts with Nova Poshta delivery across Ukraine.",
+    "ogTitle": "Auto parts for your vehicle with delivery across Ukraine",
+    "ogDescription": "Message us and we will match the right part by VIN, vehicle model, or photo.",
+    "ogImageAlt": "Auto parts in a warehouse with a brake disc, shock absorber, and filter"
+  },
+  "seo": {
+    "areaServed": "Ukraine",
+    "contactType": "Auto parts matching"
+  },
+  "header": {
+    "logo": "AutoParts UA",
+    "logoAria": "AutoParts UA home page",
+    "navAria": "Main navigation",
+    "languageAria": "Language selection",
+    "cta": "Contact us",
+    "nav": [
+      {"label": "Categories", "href": "#categories"},
+      {"label": "How it works", "href": "#how-it-works"},
+      {"label": "Budget", "href": "#budget"},
+      {"label": "Delivery", "href": "#delivery"},
+      {"label": "FAQ", "href": "#faq"}
+    ]
+  },
+  "hero": {
+    "title": "Auto parts for your vehicle with delivery across Ukraine",
+    "subtitle": "We match parts by VIN, vehicle model, or part photo. No long forms - just message us.",
+    "primaryCta": "Find my part",
+    "secondaryAction": "Match by VIN",
+    "vehicleIntro": "We match parts for:",
+    "vehicleTypes": ["Passenger cars", "Trucks", "Minibuses", "Buses"]
+  },
+  "contact": {
+    "title": "Choose a convenient contact method",
+    "subtitle": "Message us and we will match the part by VIN, vehicle model, or part photo.",
+    "close": "Close contact dialog",
+    "options": {
+      "telegram": {
+        "label": "Telegram",
+        "hint": "Fast message to a manager",
+        "aria": "Message us on Telegram"
+      },
+      "viber": {
+        "label": "Viber",
+        "hint": "Convenient for photo consultations",
+        "aria": "Message us on Viber"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "hint": "Message from your phone or browser",
+        "aria": "Message us on WhatsApp"
+      },
+      "phone": {
+        "label": "Call us",
+        "hint": "Open the number in your phone app",
+        "aria": "Call us by phone"
+      }
+    }
+  },
+  "trust": {
+    "aria": "Service advantages",
+    "items": [
+      {"title": "VIN matching", "text": "We check compatibility before purchase."},
+      {"title": "Nova Poshta shipping", "text": "We deliver parts to cities and villages across Ukraine."},
+      {"title": "Pay on delivery", "text": "You can inspect the parcel at the branch."},
+      {"title": "Original or quality analog", "text": "We match the option that fits your budget."}
+    ]
+  },
+  "categories": {
+    "title": "We will match the right part category",
+    "text": "Tell us what you need. If you do not know the part number, VIN, vehicle model, or a photo is enough to start.",
+    "items": [
+      {"title": "Brake system", "text": "Discs, pads, calipers, sensors, and kits.", "aria": "Match brake system parts"},
+      {"title": "Filters and oils", "text": "Filters, oils, and service materials matched to your car.", "aria": "Match filters and oils"},
+      {"title": "Suspension", "text": "Shock absorbers, arms, bushings, and struts.", "aria": "Match suspension parts"},
+      {"title": "Engine", "text": "Belts, rollers, gaskets, sensors, and assemblies.", "aria": "Match engine parts"},
+      {"title": "Body parts", "text": "Body elements, fasteners, and related parts.", "aria": "Match body parts"},
+      {"title": "Lighting", "text": "Headlights, bulbs, tail lights, and lighting electronics.", "aria": "Match automotive lighting"},
+      {"title": "Electrical", "text": "Batteries, sensors, relays, wiring, and modules.", "aria": "Match electrical components"},
+      {"title": "Service kits", "text": "Kits for scheduled vehicle maintenance.", "aria": "Match a service kit"}
+    ]
+  },
+  "how": {
+    "title": "How it works",
+    "text": "No cart, account, or long forms. Everything happens in the messenger that is easiest for you.",
+    "steps": [
+      {"title": "Send VIN or vehicle model", "text": "You can add a part photo, part number, or a short issue description."},
+      {"title": "We match available options", "text": "We check compatibility and suggest parts that are available."},
+      {"title": "You choose brand and budget", "text": "We explain the difference between original, OEM, and analog options."},
+      {"title": "We ship across Ukraine", "text": "We confirm delivery details and hand the order to Nova Poshta."}
+    ]
+  },
+  "budget": {
+    "title": "Options for different budgets",
+    "text": "For most parts we can offer several solutions: from original parts to reliable budget analogs.",
+    "recommendedBadge": "Best balance",
+    "items": [
+      {"title": "Original", "text": "Original parts for maximum alignment with manufacturer requirements."},
+      {"title": "OEM / Premium Analog", "text": "A strong balance of durability, brand trust, and price for everyday use."},
+      {"title": "Budget Analog", "text": "An accessible option when you need to solve the problem without overpaying."}
+    ]
+  },
+  "delivery": {
+    "title": "Delivery and payment",
+    "text": "Before shipping, we confirm compatibility, payment method, and the most convenient branch or delivery address.",
+    "items": [
+      {"title": "Delivery across Ukraine", "text": "We work with customers in every region where delivery is available."},
+      {"title": "Nova Poshta", "text": "We ship to branches, parcel lockers, or by courier."},
+      {"title": "Pay on delivery", "text": "Cash on delivery is available by agreement."},
+      {"title": "Pre-purchase consultation", "text": "We help compare brands and confirm compatibility."},
+      {"title": "Compatibility check", "text": "We verify vehicle, year, engine, and VIN before recommending a part."}
+    ]
+  },
+  "faq": {
+    "title": "Questions about auto parts matching",
+    "text": "These answers help you understand the process quickly and prepare the details a manager needs.",
+    "items": [
+      {"question": "How do I match a part by VIN?", "answer": "Send your VIN code in Telegram, Viber, or WhatsApp. We will check the vehicle configuration, verify compatibility, and suggest available part options."},
+      {"question": "Can I order without a part number?", "answer": "Yes. If you do not have a number, send the make, model, year, engine, or a photo of the part. That is often enough to start matching."},
+      {"question": "Do you deliver across Ukraine?", "answer": "Yes, we ship auto parts across Ukraine via Nova Poshta to branches, parcel lockers, or courier delivery where available."},
+      {"question": "Can I pay on delivery?", "answer": "In many cases, payment on delivery is available. A manager will confirm the terms after matching the specific item and delivery cost."},
+      {"question": "How do I know the part will fit?", "answer": "We check compatibility by VIN, vehicle parameters, cross-numbers, and technical specifications. If anything is unclear, we will ask for an extra photo or details."},
+      {"question": "Do you sell original parts or analogs?", "answer": "We can offer original parts, OEM parts, or quality analogs. You choose the option that best matches price, brand, and expected durability."}
+    ]
+  },
+  "finalCta": {
+    "title": "Need a part?",
+    "text": "Message us and we will match the right part for your vehicle.",
+    "button": "Find my part"
+  },
+  "footer": {
+    "description": "Premium auto parts matching without extra forms: consultation, compatibility checks, and delivery across Ukraine.",
+    "navTitle": "Navigation",
+    "languageTitle": "Languages",
+    "contactsTitle": "Contacts",
+    "languages": {
+      "uk": "Українська",
+      "ru": "Русский",
+      "en": "English"
+    },
+    "copyright": "© 2026 AutoParts UA. All rights reserved."
+  }
+}
