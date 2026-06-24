@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import {NextIntlClientProvider} from 'next-intl';
 import {notFound} from 'next/navigation';
+import Script from 'next/script';
 import '../globals.css';
 import {siteConfig} from '@/config/site';
 import {getLocaleMessages} from '@/i18n/messages';
@@ -65,6 +66,20 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
 
   return (
     <html lang={locale} data-scroll-behavior="smooth">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q38XFFSC6K"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Q38XFFSC6K');
+          `}
+        </Script>
+      </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
