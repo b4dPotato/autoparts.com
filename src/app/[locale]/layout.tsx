@@ -32,6 +32,17 @@ export async function generateMetadata({params}: LocaleLayoutProps): Promise<Met
     metadataBase: new URL(siteConfig.url),
     title: messages.metadata.title,
     description: messages.metadata.description,
+    icons: {
+      icon: [
+        {url: '/favicon.ico', sizes: 'any'},
+        {url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32'}
+      ],
+      apple: [{url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180'}],
+      other: [
+        {rel: 'icon', url: '/icon-192.png', type: 'image/png', sizes: '192x192'},
+        {rel: 'icon', url: '/icon-512.png', type: 'image/png', sizes: '512x512'}
+      ]
+    },
     alternates: {
       canonical,
       languages: Object.fromEntries(locales.map((item) => [item, `${siteConfig.url}/${item}`]))

@@ -6,9 +6,7 @@ import {
   createContext,
   type ButtonHTMLAttributes,
   type ReactNode,
-  type TouchEvent,
   useContext,
-  useRef,
   useState
 } from 'react';
 import {PhoneCall, X} from 'lucide-react';
@@ -95,41 +93,21 @@ type ContactTriggerProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 export function ContactTrigger({
   children,
   onClick,
-  onTouchEnd,
   type = 'button',
   ...props
 }: ContactTriggerProps) {
   const context = useContext(ContactContext);
-  const openedFromPointer = useRef(false);
 
   function openContact() {
     context?.open();
-  }
-
-  function handleTouchEnd(event: TouchEvent<HTMLButtonElement>) {
-    onTouchEnd?.(event);
-
-    if (event.defaultPrevented) {
-      return;
-    }
-
-    event.preventDefault();
-    openedFromPointer.current = true;
-    openContact();
   }
 
   return (
     <button
       {...props}
       type={type}
-      onTouchEnd={handleTouchEnd}
       onClick={(event) => {
         onClick?.(event);
-
-        if (openedFromPointer.current) {
-          openedFromPointer.current = false;
-          return;
-        }
 
         if (!event.defaultPrevented) {
           openContact();
